@@ -2,7 +2,7 @@
 ## 1. Problem statement
 - This project aims to analyze a comprehensive healthcare dataset comprising medical examinations, hospitalization details, and customer profiles to extract insights into patient health profiles, medical histories, and healthcare costs. By exploring relationships between various health metrics, identifying trends, and visualizing key patterns, we aim to deliver actionable insights to healthcare stakeholders for informed decision-making through rigorous data cleaning, transformation, exploration, and analysis.
   ## 2. Dataset Description
-   ## 3. Data pre-processing
+  ## 3. Data pre-processing
   ### Data cleaning
 - In medical examination table "2" missing value with "?" has been found, in hospitalization details missing values was found in customer ID,Year,Month,Hospital tier, City tier and state ID.Missing values in month column was replaced by Sep and Year with 1993(average value).Missing values in smoker,hospital tier and city tier was replaced with Mode.Missing value in state ID repalced with "Unkown". Find and replace function was used in most of the cases.
 
