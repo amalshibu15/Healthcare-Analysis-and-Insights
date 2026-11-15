@@ -16,7 +16,31 @@
 -  "Concat" was used to merge the cells and form Date of brith column, and number format used to convert it into "DD-MM-YYYY" format.
 -  Currency changed into "$" using number format.
   ## Exploratory Data Analysis
-  
+ - This interactive Excel dashboard analyzes a patient-level healthcare dataset of 2,335 patients. It explores how health conditions, lifestyle factors, and demographics relate to healthcare charges. The dashboard summarizes key metrics at the top and offers interactive slicers for filtering the visuals.
+
+Key Metrics (KPI Cards)
+Total Customers: 2,335 patients
+Average BMI: 30.97
+Average HbA1c: 6.58
+Interactive Slicers
+Weight Status: Normal Weight, Obesity, Over Weight, Underweight
+Diabetes Status: Diabetes, Normal, Prediabetes
+
+Both slicers update all connected charts and KPI cards at once, so users can focus on any patient segment.
+
+### Visualizations
+
+1. Healthcare Charges by Weight Status and Diabetes Status (Column Chart)
+A clustered column chart showing total healthcare charges for each weight category, split by diabetes status. Obesity accounts for the highest total charges by a wide margin, followed by Normal Weight, Over Weight, and Underweight.
+
+2. Number of Major Surgeries and Average HbA1c by Transplant History (Pie Chart)
+Compares patients with and without a history of transplants on total major surgeries and average HbA1c. The split is roughly 50% / 50% in this view.
+
+3. Cancer History among Smokers vs. Non-Smokers (Pie Chart)
+Shows the distribution of cancer history among smokers and non-smokers. In the current view, 79% of patients have no cancer history and 21% do.
+
+4. Average Charges by Hospital Tier and State (Column Chart)
+Compares average healthcare charges across hospital tiers and states.
 
 
   
